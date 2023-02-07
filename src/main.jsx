@@ -21,13 +21,7 @@ const router = createBrowserRouter([
         path: "/lead/:leadId/show",
         element: <Show />,
         loader: leadsIdLoader,
-        // action: nuevoClienteAction,
       },
-      // {
-      //   path: "/leads/:leadId/",
-      // element: <EditarCliente />,
-      // loader: editarClienteLoader,
-      // },
     ],
   },
 ]);

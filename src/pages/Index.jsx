@@ -1,5 +1,6 @@
 import LeadFilter from "../components/LeadFilter";
 function Index() {
+  /**Pagina de index para ver los datos que entrar primero */
   return (
     <>
       <div className="w-full">

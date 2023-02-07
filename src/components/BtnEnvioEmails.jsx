@@ -1,5 +1,6 @@
 import axios from "axios";
 function BtnEnvioEmails(props) {
+  /**Envia emails, consumiendo la api  */
   const enviaEmails = async () => {
     let url = `${import.meta.env.VITE_API_URL}`;
     let indice = url.indexOf("/", 22);

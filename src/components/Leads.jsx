@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 function Leads({ lead }) {
+  /**Recibe los datos y lo devuelve en una tabla */
   const navigate = useNavigate();
   const { titulo, fecha_creacion, fecha_cierre, estado_lead, id } = lead;
 

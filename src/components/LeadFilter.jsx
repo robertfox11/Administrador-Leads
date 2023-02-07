@@ -3,6 +3,7 @@ import axios from "axios";
 import Leads from "./Leads";
 import BtnEnvioEmails from "./BtnEnvioEmails";
 const LeadFilter = () => {
+  /**Buscador por filtros de estados y orden  */
   const [leads, setLeads] = useState([]);
   const [loading, setLoading] = useState(true);
   const [selectedStatus, setSelectedStatus] = useState("");

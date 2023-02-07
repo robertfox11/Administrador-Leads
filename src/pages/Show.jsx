@@ -6,6 +6,7 @@ export function loader({ params }) {
   return leads;
 }
 function Show() {
+  /**Vemos el leads por id */
   const leads = useLoaderData();
   const navigate = useNavigate();
   return (
